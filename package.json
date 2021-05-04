@@ -1,0 +1,25 @@
+{
+  "name": "overLeveredRewinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeFireX/overLeveredRewinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeFireX/overLeveredRewinder/issues"
+  },
+  "homepage": "https://github.com/DeFireX/overLeveredRewinder#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ethereumjs-tx": "^1.3.7",
+    "web3": "^1.3.5"
+  }
+}
