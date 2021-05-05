@@ -43,7 +43,7 @@ const nodeList = [
             const lastEarnBlock = await strategy.methods.lastEarnBlock().call();
             const hoursLeftFromLastEarn = (lastBlock - lastEarnBlock) * 3 / 60 / 60;
             console.log(c.address, hoursLeftFromLastEarn);
-            if (hoursLeftFromLastEarn > 12) {
+            if (hoursLeftFromLastEarn > 18) {
                 console.log('Sending trx');
                 let gasAmount;
                 try{
