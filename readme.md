@@ -1,3 +1,4 @@
+# Installation
 1. Install Node.js ([nodejs.org](https://nodejs.org/en/download/))
 
     We recommend to use Ubuntu and install nodejs via package manager.
