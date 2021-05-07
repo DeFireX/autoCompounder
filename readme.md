@@ -44,9 +44,19 @@
     ```sh
     pm2 start ./index.js --name DefireXAutoCompounder
     ```
-   You may check the logs via
+    You may check the logs via
     ```sh
     pm2 logs
+    ```
+   
+    Stop the script
+    ```sh
+    pm2 stop DefireXAutoCompounder
+    ```
+    or
+   
+    ```sh
+    pm2 stop 0
     ```
 7. Enable to restart script on server reboot
     ```sh
